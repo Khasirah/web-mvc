@@ -7,10 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateAddressRequest {
+public class Partner {
 
-    private String city;
-    private String street;
-    private String postalCode;
-    private String country;
+    private String id;
+    private String name;
 }

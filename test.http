@@ -1,0 +1,29 @@
+POST http://localhost:8080/api/person
+Content-Type: application/json
+Accept: application/json
+
+{
+  "phone": "123456789",
+  "email": "haris@haris.com",
+  "hobbies": ["coding", "reading", "sleeping"],
+  "socialMedias": [
+    {
+      "name": "facebook",
+      "location": "facebook.com/haris"
+    },
+    {
+      "name": "instagram",
+      "location": "instagram.com/haris"
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/todos?todo=makan
+Accept: application/json
+
+###
+
+GET http://localhost:8080/todos
+Accept: application/json
